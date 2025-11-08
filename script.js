@@ -1,6 +1,6 @@
 // script.js
 // Proyecto: "Come y Crece"
-// Descripción: Controla la interactividad de la web (menú, buscador, anuncios, modal, etc.)
+// Descripción: Controla la interactividad de la web (menú, buscador, anuncios, etc.)
 
 // Espera a que el contenido HTML esté completamente cargado antes de ejecutar el código
 document.addEventListener("DOMContentLoaded", () => {

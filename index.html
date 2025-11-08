@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Come y Crece</title> <!-- label de la pestaña del navegador-->
+    <!-- ubicación del archivo CSS-->
+    <link rel="stylesheet" href="personalizar.css" /> 
+    <!--Fuente para los iconos de las RRSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  />
+  </head>
+  <body>
+    <header>
+      <div class="menu-container">
+        <!-- Titulo de la página-->
+        <h1>Come y Crece</h1> 
+        <!-- Boton desplegable con opciones (javascript)-->
+        <button id="BotonMenu" class="menu-text-btn">Menú</button>
+        <nav id="menu">
+          <a href="#">Iniciar sesión</a>
+          <a href="#">Quién soy</a>
+          <a href="#">Productos</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
+      <p>Consejos y recetas saludables de 6 meses a 2 años</p>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <!-- ENTRADAS -->
+        <section class="SeccionEntradas">
+          <div class="GridEntradas">
+            <!-- Cada articulo tiene class para refenciar en CSS y JS, data-image para referenciarla imagen en js, data-tile para referenciar un titulo y data-text para añadir texto-->
+            <!--Entrada 1 -->
+
+            <article class="entrada"  data-img="img/platanoYPera.jpg" data-title="Empezamos con las frutas" data-text="A partir de los 6 meses el bebé puede comenzar con frutas suaves como plátano y pera.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <!-- Imagen-->
+              <img src="img/platanoYPera.jpg" alt="Frutas" />
+              <h2>Empezamos con las frutas</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+
+            <!-- Entrada 2 -->
+            <article class="entrada" data-img="img/Texturas.jpg" data-title="Introducción de nuevas texturas" data-text="Hacia los 9-10 meses puedes ofrecer purés más espesos y trozos blandos para que el bebé experimente texturas.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <img src="img/Texturas.jpg" alt="Texturas nuevas" />
+              <h2>Introducción de nuevas texturas</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+
+            <!-- Entrada 3 -->
+            <article class="entrada"  data-img="img/Rutinas.jpg" data-title="Rutina de comidas saludable" data-text="Desde el año, establece 3 comidas principales y 2 meriendas para un desarrollo equilibrado.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <img src="img/Rutinas.jpg" alt="Horario de comidas" />
+              <h2>Rutina de comidas saludable</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+
+            <!-- Entrada 4 -->
+            <article class="entrada"  data-img="img/FrutosSecos.jpg" data-title="Introducción a los frutos secos" data-text="La introducción de frutos secos en la dieta de un bebé debe hacerse con precaución y bajo supervisión. Aquí hay algunas recomendaciones clave:
+               Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum. 
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+            y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+            estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <img src="img/FrutosSecos.jpg" alt="Verduras" />
+              <h2>Introducción de verduras</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+
+            <!-- Entrada 5 -->
+            <article class="entrada" data-img="img/cereales.jpg" data-title="Introducción de cereales" data-text="Los cereales son una buena fuente de energía, fibra, vitaminas y minerales para el bebé. Se pueden introducir a partir de los 6 meses, cuando comienza la alimentación complementaria.
+
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+              y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+              como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <img src="img/cereales.jpg" alt="Cereales" />
+              <h2>Introducción de cereales</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+
+            <!-- Entrada 6 -->
+            <article class="entrada" data-img="img/Merienda.jpg" data-title="Snacks y meriendas saludables" data-text="Entre comidas principales, puedes ofrecer snacks blandos y saludables, evitando azúcares procesados y fomentando hábitos sanos.
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas 
+              y archivos de texto. Lorem Ipsum ha sido el texto de relleno 
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+              galería de textos y los mezcló de tal manera que logró hacer un libro 
+              de textos especimen. No sólo sobrevivió 500 años, sino que tambien 
+              ingresó como texto de relleno en documentos electrónicos, quedando 
+              esencialmente igual al original. Fue popularizado en los 60s con la 
+              creación de las hojas Letraset las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, 
+              como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum">
+              <img src="img/Merienda.jpg" alt="Snacks saludables" />
+              <h2>Snacks y meriendas saludables</h2>
+              <p class="EntradaFin"></p>
+              <button class="BotonLeer">Seguir leyendo</button>
+            </article>
+          </div>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <!-- Añadimos un buscador de texto que busca dentro de las entradas con js-->
+          <input type="text" id="buscador" placeholder="Buscar en el blog..." />
+          <!-- Añadimos un panel de anuncios rotatorios gestionado con js-->
+          <div id="anuncios">Anuncio1</div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- CUADRO EXPANDIDO -->
+    <!-- Al hacer click al boton de Seguir Leyendo se sobrepone un cuadrado con el titulo, imagen y texto completo de la entrada. Por defecto está oculto.-->
+    <div id="EntradaExpandida" class="EntradaExpandida" style="display:none;">
+      <div class="EntradaContenido">
+        <img id="EntradaImagen" src="" alt="Imagen de la entrada" /> <!-- La imagen se actualiza por js-->
+        <div class="EntradaTexto">
+          <h2 id="EntradaTitulo"></h2>
+          <p id="EntradaTexto"></p>
+          <button id="CerrarEntradaExpandida">Leer menos</button><!-- Botón para cerrar el cuadro expandido -->
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER CON ICONOS DE REDES SOCIALES-->
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <p>Sigueme en las Redes Sociales</p>
+    </footer>
+    <!-- Enlace al javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
